@@ -1,0 +1,53 @@
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .mobile-nav {
+    display: flex;
+  }
+  .header__img-wrapper {
+    display: none;
+  }
+  .header__list-wrapper {
+    display: none;
+  }
+  .header {
+    padding-top: 2rem;
+  }
+  .landing-wrapper {
+    flex-direction: column-reverse;
+  }
+  .landing-right,
+  .landing-left {
+    width: 100%;
+  }
+  .landing__title {
+    padding-top: 5rem;
+    font-size: 5rem;
+  }
+}
+@media (max-width: 768px) {
+  .arrow {
+    left: 10rem;
+  }
+}
+@media (max-width: 576px) {
+  .arrow {
+    display: none;
+  }
+  .landing__title {
+    font-size: 3.7rem;
+  }
+  .landing__text {
+    font-size: 1.6rem;
+  }
+  .landing__courses-link {
+    font-size: 1.4rem;
+    padding: 1.8rem 2.2rem;
+  }
+  .landing__student-link {
+    padding: 1.8rem 2.3rem;
+    font-size: 1.4rem;
+  }
+}

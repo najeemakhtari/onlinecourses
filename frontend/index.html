@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn coding | bemlearn</title>
+    <link rel="icon" type="image/x-icon" href="/images/bemlearn-favicon.ico" />
+    <link rel="stylesheet" href="style/grid.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+  </head>
+  <body>
+    <!---------------header started------------------>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper flex-align-center">
+          <div class="mobile-nav flex-align-center">
+            <span class="mobile-nav__lines"></span>
+          </div>
+          <div class="header__img-wrapper">
+            <a href="index.html">
+              <img
+                src="images/full-logo.png"
+                class="header__img"
+                alt="bemstart logo"
+              />
+            </a>
+          </div>
+          <div class="header__list-wrapper">
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a href="index.html" class="header__list-link active">Home</a>
+              </li>
+              <li class="header__list-item">
+                <a href="courses.html" class="header__list-link">Courses</a>
+              </li>
+              <li class="header__list-item">
+                <a href="students.html" class="header__list-link">Students</a>
+              </li>
+              <li class="header__list-item">
+                <a href="about.html" class="header__list-link">About us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__links-wrapper flex-align-center">
+            <a href="cart.html" class="app-btn header__shopping">
+              <svg width="28px" height="28px" viewBox="0 0 24 24" fill="none">
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g stroke-linecap="round" stroke-linejoin="round" />
+
+                <g>
+                  <path
+                    d="M3 3H4.37144C5.31982 3 6.13781 3.66607 6.32996 4.59479L8.67004 15.9052C8.86219 16.8339 9.68018 17.5 10.6286 17.5H17.5"
+                    stroke="#7c3aed"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M6.82422 7H19.6743C20.3386 7 20.8183 7.6359 20.6358 8.27472L19.6217 11.8242C19.2537 13.1121 18.0765 14 16.7371 14H8.27734"
+                    stroke="#7c3aed"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="16.5"
+                    cy="20.5"
+                    r="0.5"
+                    fill="#7c3aed"
+                    stroke="#7c3aed"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="0.5"
+                    cy="0.5"
+                    r="0.5"
+                    transform="matrix(1 0 0 -1 10 21)"
+                    fill="#7c3aed"
+                    stroke="#7c3aed"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+              </svg>
+              <span class="header__shopping-number flex-align-justify-center"
+                >2</span
+              >
+            </a>
+            <a href="login.html" class="app-btn header__login">
+              <span class="header__login-text">Login</span>
+              <svg width="28px" height="28px" viewBox="0 0 24 24" fill="none">
+                <g stroke-width="0" />
+
+                <g stroke-linecap="round" stroke-linejoin="round" />
+
+                <g>
+                  <path
+                    d="M2.00098 11.999L16.001 11.999M16.001 11.999L12.501 8.99902M16.001 11.999L12.501 14.999"
+                    stroke="#7c3aed"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.00195 7C9.01406 4.82497 9.11051 3.64706 9.87889 2.87868C10.7576 2 12.1718 2 15.0002 2L16.0002 2C18.8286 2 20.2429 2 21.1215 2.87868C22.0002 3.75736 22.0002 5.17157 22.0002 8L22.0002 16C22.0002 18.8284 22.0002 20.2426 21.1215 21.1213C20.2429 22 18.8286 22 16.0002 22H15.0002C12.1718 22 10.7576 22 9.87889 21.1213C9.11051 20.3529 9.01406 19.175 9.00195 17"
+                    stroke="#7c3aed"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!---------------header finish------------------>
+    <main class="main">
+      <!---------------landing Start------------------>
+      <section class="landing">
+        <div class="arrow">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="180"
+            viewBox="0 0 270.95 237.981"
+          >
+            <defs>
+              <clipPath id="a">
+                <rect width="160.21" height="225.262" fill="#ede7f6"></rect>
+              </clipPath>
+            </defs>
+            <g transform="translate(0 146.359) rotate(-66)">
+              <g clip-path="url(#a)">
+                <path
+                  d="M29.237,190.173C18.646,188.036,13.247,175.466,0,179.5c1.813,2.379,2.686,4.086,4.039,5.214C18.975,197.142,33.9,209.6,49.066,221.747c2.486,1.989,6.653,4.13,9.159,3.354,4.61-1.43,3.764-6.1,2.81-10.183-2.968-12.693-5.775-25.426-8.664-38.228-7.106,3.342-7.106,3.342-5.392,25.337C18.938,172.78,23.417,128.542,57,107.563c1.9,3.45,3.68,6.935,5.689,10.284,5.919,9.859,13.959,17.125,25.179,20.578,8.263,2.545,15.9,1.684,21.966-4.7,6.238-6.569,5.637-14.4,2.58-22.282C105.789,94.37,90.687,86.08,72.525,89.466c-2.241.418-4.546.482-7.625.791-1.768-23.123,2.726-44.164,16.576-62.175C102.829.312,132.4,6.878,152.055,21.6c2.429,1.82,4.519,4.093,8.155,7.43-.774-7.714-4.736-11.55-8.595-15.241C136.372-.784,110.5-4.281,91.793,5.582A60.855,60.855,0,0,0,64.94,33.343c-8.706,17.825-12.824,36.578-10.7,56.489.208,1.959.292,3.93.48,6.537-14.83,10.7-27.916,22.992-33.049,41.718-5.013,18.285,2.12,34.839,7.568,52.086M67,101.845c17.165-7.855,32.549-2.327,37.328,13.166,1.128,3.653.7,8.929-1.229,12.109-2.753,4.531-8.061,3.886-12.827,2.026-12.354-4.821-19.2-14.251-23.272-27.3"
+                  transform="translate(0 -0.002)"
+                  fill="#ede7f6"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="container">
+          <div class="landing-wrapper flex-align-center">
+            <div class="landing-left">
+              <div class="landing__text-wrapper">
+                <h1 class="landing__title">
+                  Learn Web Development With bemLearn
+                </h1>
+                <p class="landing__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+                  labore maiores quam excepturi blanditiis, inventore veniam
+                  eligendi ex
+                </p>
+              </div>
+              <div class="landing__link-wrapper flex-align-center">
+                <a href="#" class="app-btn landing__courses-link">
+                  Courses
+                  <svg
+                    width="15px"
+                    height="15px"
+                    viewBox="-1 0 12 12"
+                    version="1.1"
+                    fill="#000000"
+                    class="landing__course-link-svg"
+                  >
+                    <g stroke-width="0" />
+
+                    <g stroke-linecap="round" stroke-linejoin="round" />
+
+                    <g>
+                      <title>play [#1000]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs></defs>
+                      <g
+                        id="Page-1"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          id="Dribbble-Light-Preview"
+                          transform="translate(-65.000000, -3803.000000)"
+                          fill="#ffffff"
+                        >
+                          <g
+                            id="icons"
+                            transform="translate(56.000000, 160.000000)"
+                          >
+                            <path
+                              d="M18.074,3650.7335 L12.308,3654.6315 C10.903,3655.5815 9,3654.5835 9,3652.8985 L9,3645.1015 C9,3643.4155 10.903,3642.4185 12.308,3643.3685 L18.074,3647.2665 C19.306,3648.0995 19.306,3649.9005 18.074,3650.7335"
+                              id="play-[#1000]"
+                            ></path>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a href="#" class="app-btn landing__student-link"
+                  >Student comments</a
+                >
+              </div>
+            </div>
+            <div class="landing-right">
+              <img src="images/svg/landing.svg" class="landing__svg" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------------landing finish------------------>
+      <!---------------courses section start------------------>
+      <section class="courses">
+        <div class="container">
+          <div class="title-wrapper flex-align-center">
+            <div class="title__left flex-align-center">
+              <svg
+                class="text-dark-550 dark:text-white ml-4"
+                width="30"
+                height="28"
+                viewBox="0 0 37 34"
+                fill="none"
+              >
+                <circle cx="10" cy="24" r="10" fill="currentColor"></circle>
+                <circle
+                  cx="30"
+                  cy="13"
+                  r="7"
+                  fill="currentColor"
+                  fill-opacity="0.4"
+                ></circle>
+                <circle
+                  cx="15"
+                  cy="4"
+                  r="4"
+                  fill="currentColor"
+                  fill-opacity="0.7"
+                ></circle>
+              </svg>
+              <h4 class="title__text">Newest Courses</h4>
+            </div>
+
+            <div class="title__right flex-align-center">
+              <a href="#" class="title__more">Browse All</a>
+              <svg
+                width="17px"
+                height="17px"
+                viewBox="-1 0 12 12"
+                version="1.1"
+                fill="#000000"
+                class="title__svg"
+              >
+                <g stroke-width="0" />
+
+                <g stroke-linecap="round" stroke-linejoin="round" />
+
+                <g>
+                  <title>play [#1000]</title>
+                  <desc>Created with Sketch.</desc>
+                  <defs></defs>
+                  <g
+                    id="Page-1"
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      id="Dribbble-Light-Preview"
+                      transform="translate(-65.000000, -3803.000000)"
+                      fill="#7c3aed"
+                    >
+                      <g
+                        id="icons"
+                        transform="translate(56.000000, 160.000000)"
+                      >
+                        <path
+                          d="M18.074,3650.7335 L12.308,3654.6315 C10.903,3655.5815 9,3654.5835 9,3652.8985 L9,3645.1015 C9,3643.4155 10.903,3642.4185 12.308,3643.3685 L18.074,3647.2665 C19.306,3648.0995 19.306,3649.9005 18.074,3650.7335"
+                          id="play-[#1000]"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="course-wrapper">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                  <div class="card__header">
+                    <svg width="80" viewBox="0 0 114 115" fill="none">
+                      <circle cx="57" cy="57" r="56" fill="black"></circle>
+                      <path
+                        d="M54.9645 0.0001534C54.1285 0.0001534 53.492 0.0049036 53.264 0.0334048C52.6881 0.0909863 52.1117 0.143241 51.5349 0.190161C35.351 1.64372 20.1836 10.3793 10.5787 23.8081C5.26688 31.1782 1.81375 39.7222 0.513021 48.7134C0.0570023 51.8438 0 52.7701 0 57.012C0 61.254 0.0570023 62.185 0.513021 65.3154C3.61015 86.7198 18.8488 104.704 39.5074 111.369C43.2078 112.556 47.1077 113.373 51.5444 113.862C53.2687 114.052 60.736 114.052 62.4651 113.862C70.1177 113.017 76.6064 111.122 83.0002 107.858C83.9835 107.355 84.1735 107.222 84.0405 107.108C83.9455 107.046 79.7653 101.441 74.7539 94.6621L65.6382 82.3496L54.2188 65.4484C50.4196 59.7935 46.5845 54.1628 42.7138 48.5567C42.671 48.5472 42.6283 56.0572 42.6045 65.2299C42.5713 81.2855 42.557 81.9268 42.3575 82.3068C42.1639 82.7521 41.8165 83.1129 41.379 83.3234C41.0227 83.4991 40.7139 83.5324 39.0276 83.5324H37.0943L36.5813 83.2094C36.2641 83.0106 36.0065 82.73 35.8355 82.3971L35.598 81.8936L35.6265 59.5534L35.6597 37.2037L36.0017 36.7667C36.2353 36.4935 36.5151 36.2636 36.8283 36.0874C37.2843 35.8641 37.4648 35.8451 39.3934 35.8451C41.664 35.8451 42.044 35.9306 42.633 36.5767C47.2556 43.4561 51.8397 50.3614 56.3848 57.2923C63.8777 68.6483 71.3751 80.0012 78.877 91.3512L87.9024 105.027L88.3584 104.728C92.7037 101.84 96.6433 98.3849 100.072 94.4531C107.254 86.2331 111.911 76.1161 113.487 65.3154C113.943 62.1802 114 61.2587 114 57.012C114 52.7701 113.943 51.8438 113.487 48.7134C110.39 27.309 95.156 9.32479 74.4973 2.66026C70.6348 1.43226 66.6574 0.599866 62.6266 0.175911C60.076 0.0551907 57.5228 -0.00341248 54.9693 0.0001534H54.9645ZM74.2931 34.2823C75.9414 34.2823 76.2312 34.3061 76.6017 34.5056C76.8671 34.6395 77.1032 34.8248 77.2964 35.0507C77.4897 35.2765 77.6362 35.5385 77.7275 35.8214C77.813 36.1064 77.8367 42.3054 77.813 56.2662L77.7845 76.3026L74.2503 70.8874L70.7067 65.4721V50.908C70.7067 41.4931 70.7542 36.1967 70.8159 35.9449C70.8956 35.6478 71.0347 35.3699 71.225 35.1282C71.4152 34.8865 71.6526 34.686 71.9227 34.5388C72.3788 34.3013 72.5403 34.2823 74.2978 34.2823H74.2931Z"
+                        fill="#D6D7E1"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="card__middle">
+                    <h2 class="card__title">
+                      Next JS full course form zero to expert
+                    </h2>
+                    <div class="card__time flex-align-center">
+                      <svg
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <circle cx="12" cy="12" r="8.5" stroke="#7c3aed" />
+                          <path
+                            d="M16.5 12H12.25C12.1119 12 12 11.8881 12 11.75V8.5"
+                            stroke="#7c3aed"
+                            stroke-linecap="round"
+                          />
+                        </g>
+                      </svg>
+                      <span class="card__time-text">35 hours</span>
+                    </div>
+                    <div class="card__student-price flex-align-center">
+                      <div class="card__student flex-align-center">
+                        <svg
+                          width="20px"
+                          height="20px"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                        >
+                          <g stroke-width="0" />
+
+                          <g stroke-linecap="round" stroke-linejoin="round" />
+
+                          <g>
+                            <path
+                              d="M4 14.5V11.165L8.00843 13.4663C9.24174 14.1743 10.7583 14.1743 11.9916 13.4663L16 11.165V14.5C16 14.6326 15.9473 14.7598 15.8536 14.8536L15.852 14.8551L15.8496 14.8574L15.8428 14.8642L15.8201 14.8859C15.801 14.9039 15.7741 14.9288 15.7394 14.9596C15.6701 15.0213 15.5696 15.1067 15.4389 15.2079C15.1777 15.41 14.7948 15.6761 14.2978 15.9412C13.3033 16.4716 11.8479 17 10 17C8.15211 17 6.69675 16.4716 5.70221 15.9412C5.20518 15.6761 4.82226 15.41 4.5611 15.2079C4.43043 15.1067 4.32994 15.0213 4.26059 14.9596C4.22591 14.9288 4.19898 14.9039 4.17992 14.8859L4.15724 14.8642C4.05938 14.7684 4 14.6378 4 14.5Z"
+                              fill="#5e81d1"
+                            />
+                            <path
+                              d="M18.7489 8.43369L11.4937 12.599C10.5687 13.1301 9.4313 13.1301 8.50632 12.599L2 8.86367L2 13.5C2 13.7761 1.77614 14 1.5 14C1.22386 14 1 13.7761 1 13.5V8.00008C1 7.81007 1.10598 7.64474 1.26206 7.56014L8.5063 3.40104C8.85317 3.20189 9.22992 3.07743 9.61413 3.02764C9.73586 3.01187 9.85834 3.00359 9.98086 3.00281C10.3739 3.0003 10.7674 3.07496 11.1377 3.22679C11.2591 3.27658 11.3781 3.33466 11.4937 3.40104L18.749 7.56646C18.9042 7.65561 19 7.82101 19 8.00008C19 8.17914 18.9042 8.34454 18.7489 8.43369Z"
+                              fill="#5e81d1"
+                            />
+                          </g>
+                        </svg>
+                        <span class="card__student-number"> 1247 Studetns</span>
+                      </div>
+                      <span class="card__price">140$</span>
+                    </div>
+                  </div>
+                  <div class="card__footer flex-align-center">
+                    <a href="#" class="app-btn card__btn">Enroll</a>
+                    <span class="card__detail flex-align-center"
+                      ><a href="#" class="card__detail-link">Course detail</a>
+                      <svg
+                        width="18px"
+                        height="18px"
+                        viewBox="-1 0 12 12"
+                        version="1.1"
+                        fill="#000000"
+                        class="card__svg"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <title>play [#1000]</title>
+                          <desc>Created with Sketch.</desc>
+                          <defs></defs>
+                          <g
+                            id="Page-1"
+                            stroke="none"
+                            stroke-width="1"
+                            fill="none"
+                            fill-rule="evenodd"
+                          >
+                            <g
+                              id="Dribbble-Light-Preview"
+                              transform="translate(-65.000000, -3803.000000)"
+                              fill="#7c3aed"
+                            >
+                              <g
+                                id="icons"
+                                transform="translate(56.000000, 160.000000)"
+                              >
+                                <path
+                                  d="M18.074,3650.7335 L12.308,3654.6315 C10.903,3655.5815 9,3654.5835 9,3652.8985 L9,3645.1015 C9,3643.4155 10.903,3642.4185 12.308,3643.3685 L18.074,3647.2665 C19.306,3648.0995 19.306,3649.9005 18.074,3650.7335"
+                                  id="play-[#1000]"
+                                ></path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                  <div class="card__header">
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 112 112"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_1423_357)">
+                        <path
+                          d="M56 112C86.9279 112 112 86.9279 112 56C112 25.0721 86.9279 0 56 0C25.0721 0 0 25.0721 0 56C0 86.9279 25.0721 112 56 112Z"
+                          fill="#3178C6"
+                          fill-opacity="0.18"
+                        ></path>
+                        <g clip-path="url(#clip1_1423_357)">
+                          <path
+                            d="M45 34C42.0618 34 39.2995 35.1442 37.2218 37.2218C35.1442 39.2995 34 42.0618 34 45V67C34 69.9382 35.1442 72.7005 37.2218 74.7782C39.2995 76.8558 42.0618 78 45 78H67C69.9382 78 72.7005 76.8558 74.7782 74.7782C76.8558 72.7005 78 69.9382 78 67V45C78 42.0618 76.8558 39.2995 74.7782 37.2218C72.7005 35.1442 69.9382 34 67 34H45ZM45 30H67C75.2843 30 82 36.7157 82 45V67C82 75.2843 75.2843 82 67 82H45C36.7157 82 30 75.2843 30 67V45C30 36.7157 36.7157 30 45 30Z"
+                            fill="#3178C6"
+                          ></path>
+                          <path
+                            d="M54.3789 50.7266V53.7852H49.2109V68H45.5781V53.7852H40.3867V50.7266H54.3789ZM62.7695 65.5039C63.6211 65.5039 64.3125 65.4102 64.8438 65.2227C65.8516 64.8633 66.3555 64.1953 66.3555 63.2188C66.3555 62.6484 66.1055 62.207 65.6055 61.8945C65.1055 61.5898 64.3203 61.3203 63.25 61.0859L61.4219 60.6758C59.625 60.2695 58.3828 59.8281 57.6953 59.3516C56.5312 58.5547 55.9492 57.3086 55.9492 55.6133C55.9492 54.0664 56.5117 52.7812 57.6367 51.7578C58.7617 50.7344 60.4141 50.2227 62.5938 50.2227C64.4141 50.2227 65.9648 50.707 67.2461 51.6758C68.5352 52.6367 69.2109 54.0352 69.2734 55.8711H65.8047C65.7422 54.832 65.2891 54.0938 64.4453 53.6562C63.8828 53.3672 63.1836 53.2227 62.3477 53.2227C61.418 53.2227 60.6758 53.4102 60.1211 53.7852C59.5664 54.1602 59.2891 54.6836 59.2891 55.3555C59.2891 55.9727 59.5625 56.4336 60.1094 56.7383C60.4609 56.9414 61.2109 57.1797 62.3594 57.4531L65.3359 58.168C66.6406 58.4805 67.625 58.8984 68.2891 59.4219C69.3203 60.2344 69.8359 61.4102 69.8359 62.9492C69.8359 64.5273 69.2305 65.8398 68.0195 66.8867C66.8164 67.9258 65.1133 68.4453 62.9102 68.4453C60.6602 68.4453 58.8906 67.9336 57.6016 66.9102C56.3125 65.8789 55.668 64.4648 55.668 62.668H59.1133C59.2227 63.457 59.4375 64.0469 59.7578 64.4375C60.3438 65.1484 61.3477 65.5039 62.7695 65.5039Z"
+                            fill="#3178C6"
+                          ></path>
+                        </g>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1423_357">
+                          <rect width="112" height="112" fill="white"></rect>
+                        </clipPath>
+                        <clipPath id="clip1_1423_357">
+                          <rect
+                            width="52"
+                            height="52"
+                            fill="white"
+                            transform="translate(30 30)"
+                          ></rect>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="card__middle">
+                    <h2 class="card__title">
+                      TypeScript course | from zero to high level
+                    </h2>
+                    <div class="card__time flex-align-center">
+                      <svg
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <circle cx="12" cy="12" r="8.5" stroke="#7c3aed" />
+                          <path
+                            d="M16.5 12H12.25C12.1119 12 12 11.8881 12 11.75V8.5"
+                            stroke="#7c3aed"
+                            stroke-linecap="round"
+                          />
+                        </g>
+                      </svg>
+                      <span class="card__time-text">18 hours</span>
+                    </div>
+                    <div class="card__student-price flex-align-center">
+                      <div class="card__student flex-align-center">
+                        <svg
+                          width="20px"
+                          height="20px"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                        >
+                          <g stroke-width="0" />
+
+                          <g stroke-linecap="round" stroke-linejoin="round" />
+
+                          <g>
+                            <path
+                              d="M4 14.5V11.165L8.00843 13.4663C9.24174 14.1743 10.7583 14.1743 11.9916 13.4663L16 11.165V14.5C16 14.6326 15.9473 14.7598 15.8536 14.8536L15.852 14.8551L15.8496 14.8574L15.8428 14.8642L15.8201 14.8859C15.801 14.9039 15.7741 14.9288 15.7394 14.9596C15.6701 15.0213 15.5696 15.1067 15.4389 15.2079C15.1777 15.41 14.7948 15.6761 14.2978 15.9412C13.3033 16.4716 11.8479 17 10 17C8.15211 17 6.69675 16.4716 5.70221 15.9412C5.20518 15.6761 4.82226 15.41 4.5611 15.2079C4.43043 15.1067 4.32994 15.0213 4.26059 14.9596C4.22591 14.9288 4.19898 14.9039 4.17992 14.8859L4.15724 14.8642C4.05938 14.7684 4 14.6378 4 14.5Z"
+                              fill="#5e81d1"
+                            />
+                            <path
+                              d="M18.7489 8.43369L11.4937 12.599C10.5687 13.1301 9.4313 13.1301 8.50632 12.599L2 8.86367L2 13.5C2 13.7761 1.77614 14 1.5 14C1.22386 14 1 13.7761 1 13.5V8.00008C1 7.81007 1.10598 7.64474 1.26206 7.56014L8.5063 3.40104C8.85317 3.20189 9.22992 3.07743 9.61413 3.02764C9.73586 3.01187 9.85834 3.00359 9.98086 3.00281C10.3739 3.0003 10.7674 3.07496 11.1377 3.22679C11.2591 3.27658 11.3781 3.33466 11.4937 3.40104L18.749 7.56646C18.9042 7.65561 19 7.82101 19 8.00008C19 8.17914 18.9042 8.34454 18.7489 8.43369Z"
+                              fill="#5e81d1"
+                            />
+                          </g>
+                        </svg>
+                        <span class="card__student-number"> 844 Studetns</span>
+                      </div>
+                      <span class="card__price">80$</span>
+                    </div>
+                  </div>
+                  <div class="card__footer flex-align-center">
+                    <a href="#" class="app-btn card__btn">Enroll</a>
+                    <span class="card__detail flex-align-center"
+                      ><a href="#" class="card__detail-link">Course detail</a>
+                      <svg
+                        width="18px"
+                        height="18px"
+                        viewBox="-1 0 12 12"
+                        version="1.1"
+                        fill="#000000"
+                        class="card__svg"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <title>play [#1000]</title>
+                          <desc>Created with Sketch.</desc>
+                          <defs></defs>
+                          <g
+                            id="Page-1"
+                            stroke="none"
+                            stroke-width="1"
+                            fill="none"
+                            fill-rule="evenodd"
+                          >
+                            <g
+                              id="Dribbble-Light-Preview"
+                              transform="translate(-65.000000, -3803.000000)"
+                              fill="#7c3aed"
+                            >
+                              <g
+                                id="icons"
+                                transform="translate(56.000000, 160.000000)"
+                              >
+                                <path
+                                  d="M18.074,3650.7335 L12.308,3654.6315 C10.903,3655.5815 9,3654.5835 9,3652.8985 L9,3645.1015 C9,3643.4155 10.903,3642.4185 12.308,3643.3685 L18.074,3647.2665 C19.306,3648.0995 19.306,3649.9005 18.074,3650.7335"
+                                  id="play-[#1000]"
+                                ></path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                  <div class="card__header">
+                    <svg width="80" viewBox="0 0 112 112" fill="none">
+                      <path
+                        d="M56 0C67.0758 0 77.9028 3.28434 87.1119 9.4377C96.3211 15.5911 103.499 24.3371 107.737 34.5697C111.976 44.8024 113.085 56.0621 110.924 66.9251C108.763 77.788 103.43 87.7662 95.598 95.598C87.7662 103.43 77.788 108.763 66.9251 110.924C56.0621 113.085 44.8024 111.976 34.5697 107.737C24.3371 103.499 15.5911 96.3211 9.4377 87.1119C3.28434 77.9028 0 67.0758 0 56C0 41.1479 5.89998 26.9041 16.402 16.402C26.9041 5.89998 41.1479 0 56 0V0Z"
+                        fill="#E8F5E9"
+                      ></path>
+                      <path
+                        d="M45.811 33C43.7054 33 41.729 34.1244 40.6532 35.9345L30.8466 52.4345C29.7228 54.3254 29.7228 56.6746 30.8466 58.5655L40.6532 75.0655C41.729 76.8756 43.7053 78 45.811 78H65.932C68.0377 78 70.014 76.8756 71.0898 75.0655L80.8964 58.5655C82.0202 56.6746 82.0202 54.3254 80.8964 52.4345L71.0898 35.9345C70.014 34.1244 68.0377 33 65.932 33H45.811ZM45.811 29H65.932C69.4595 29 72.7261 30.8585 74.5284 33.8909L84.3349 50.3909C86.2065 53.5399 86.2065 57.4601 84.3349 60.6091L74.5284 77.1091C72.7261 80.1415 69.4595 82 65.932 82H45.811C42.2835 82 39.0169 80.1415 37.2147 77.1091L27.4081 60.6091C25.5365 57.4601 25.5365 53.5399 27.4081 50.3909L37.2147 33.8909C39.0169 30.8585 42.2835 29 45.811 29Z"
+                        fill="#43A047"
+                      ></path>
+                      <path
+                        d="M51.0088 62.8086V50.7266H54.6182V62.75C54.6182 64.2188 54.3643 65.3828 53.8564 66.2422C52.9971 67.6953 51.4463 68.4219 49.2041 68.4219C46.9619 68.4219 45.458 67.8359 44.6924 66.6641C43.9268 65.4844 43.5439 63.8789 43.5439 61.8477V61.4492H46.9541V61.8477C46.9854 63.1836 47.1299 64.125 47.3877 64.6719C47.6533 65.2109 48.2158 65.4805 49.0752 65.4805C49.9268 65.4805 50.4893 65.1836 50.7627 64.5898C50.9268 64.2383 51.0088 63.6445 51.0088 62.8086ZM64.4736 65.5039C65.3252 65.5039 66.0166 65.4102 66.5479 65.2227C67.5557 64.8633 68.0596 64.1953 68.0596 63.2188C68.0596 62.6484 67.8096 62.207 67.3096 61.8945C66.8096 61.5898 66.0244 61.3203 64.9541 61.0859L63.126 60.6758C61.3291 60.2695 60.0869 59.8281 59.3994 59.3516C58.2354 58.5547 57.6533 57.3086 57.6533 55.6133C57.6533 54.0664 58.2158 52.7812 59.3408 51.7578C60.4658 50.7344 62.1182 50.2227 64.2979 50.2227C66.1182 50.2227 67.6689 50.707 68.9502 51.6758C70.2393 52.6367 70.915 54.0352 70.9775 55.8711H67.5088C67.4463 54.832 66.9932 54.0938 66.1494 53.6562C65.5869 53.3672 64.8877 53.2227 64.0518 53.2227C63.1221 53.2227 62.3799 53.4102 61.8252 53.7852C61.2705 54.1602 60.9932 54.6836 60.9932 55.3555C60.9932 55.9727 61.2666 56.4336 61.8135 56.7383C62.165 56.9414 62.915 57.1797 64.0635 57.4531L67.04 58.168C68.3447 58.4805 69.3291 58.8984 69.9932 59.4219C71.0244 60.2344 71.54 61.4102 71.54 62.9492C71.54 64.5273 70.9346 65.8398 69.7236 66.8867C68.5205 67.9258 66.8174 68.4453 64.6143 68.4453C62.3643 68.4453 60.5947 67.9336 59.3057 66.9102C58.0166 65.8789 57.3721 64.4648 57.3721 62.668H60.8174C60.9268 63.457 61.1416 64.0469 61.4619 64.4375C62.0479 65.1484 63.0518 65.5039 64.4736 65.5039Z"
+                        fill="#43A047"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="card__middle">
+                    <h2 class="card__title">
+                      Node JS and Express JS | Full course with project
+                    </h2>
+                    <div class="card__time flex-align-center">
+                      <svg
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <circle cx="12" cy="12" r="8.5" stroke="#7c3aed" />
+                          <path
+                            d="M16.5 12H12.25C12.1119 12 12 11.8881 12 11.75V8.5"
+                            stroke="#7c3aed"
+                            stroke-linecap="round"
+                          />
+                        </g>
+                      </svg>
+                      <span class="card__time-text">48 hours</span>
+                    </div>
+                    <div class="card__student-price flex-align-center">
+                      <div class="card__student flex-align-center">
+                        <svg
+                          width="20px"
+                          height="20px"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                        >
+                          <g stroke-width="0" />
+
+                          <g stroke-linecap="round" stroke-linejoin="round" />
+
+                          <g>
+                            <path
+                              d="M4 14.5V11.165L8.00843 13.4663C9.24174 14.1743 10.7583 14.1743 11.9916 13.4663L16 11.165V14.5C16 14.6326 15.9473 14.7598 15.8536 14.8536L15.852 14.8551L15.8496 14.8574L15.8428 14.8642L15.8201 14.8859C15.801 14.9039 15.7741 14.9288 15.7394 14.9596C15.6701 15.0213 15.5696 15.1067 15.4389 15.2079C15.1777 15.41 14.7948 15.6761 14.2978 15.9412C13.3033 16.4716 11.8479 17 10 17C8.15211 17 6.69675 16.4716 5.70221 15.9412C5.20518 15.6761 4.82226 15.41 4.5611 15.2079C4.43043 15.1067 4.32994 15.0213 4.26059 14.9596C4.22591 14.9288 4.19898 14.9039 4.17992 14.8859L4.15724 14.8642C4.05938 14.7684 4 14.6378 4 14.5Z"
+                              fill="#5e81d1"
+                            />
+                            <path
+                              d="M18.7489 8.43369L11.4937 12.599C10.5687 13.1301 9.4313 13.1301 8.50632 12.599L2 8.86367L2 13.5C2 13.7761 1.77614 14 1.5 14C1.22386 14 1 13.7761 1 13.5V8.00008C1 7.81007 1.10598 7.64474 1.26206 7.56014L8.5063 3.40104C8.85317 3.20189 9.22992 3.07743 9.61413 3.02764C9.73586 3.01187 9.85834 3.00359 9.98086 3.00281C10.3739 3.0003 10.7674 3.07496 11.1377 3.22679C11.2591 3.27658 11.3781 3.33466 11.4937 3.40104L18.749 7.56646C18.9042 7.65561 19 7.82101 19 8.00008C19 8.17914 18.9042 8.34454 18.7489 8.43369Z"
+                              fill="#5e81d1"
+                            />
+                          </g>
+                        </svg>
+                        <span class="card__student-number"> 5200 Studetns</span>
+                      </div>
+                      <span class="card__price">110$</span>
+                    </div>
+                  </div>
+                  <div class="card__footer flex-align-center">
+                    <a href="#" class="app-btn card__btn">Enroll</a>
+                    <span class="card__detail flex-align-center"
+                      ><a href="#" class="card__detail-link">Course detail</a>
+                      <svg
+                        width="18px"
+                        height="18px"
+                        viewBox="-1 0 12 12"
+                        version="1.1"
+                        fill="#000000"
+                        class="card__svg"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <title>play [#1000]</title>
+                          <desc>Created with Sketch.</desc>
+                          <defs></defs>
+                          <g
+                            id="Page-1"
+                            stroke="none"
+                            stroke-width="1"
+                            fill="none"
+                            fill-rule="evenodd"
+                          >
+                            <g
+                              id="Dribbble-Light-Preview"
+                              transform="translate(-65.000000, -3803.000000)"
+                              fill="#7c3aed"
+                            >
+                              <g
+                                id="icons"
+                                transform="translate(56.000000, 160.000000)"
+                              >
+                                <path
+                                  d="M18.074,3650.7335 L12.308,3654.6315 C10.903,3655.5815 9,3654.5835 9,3652.8985 L9,3645.1015 C9,3643.4155 10.903,3642.4185 12.308,3643.3685 L18.074,3647.2665 C19.306,3648.0995 19.306,3649.9005 18.074,3650.7335"
+                                  id="play-[#1000]"
+                                ></path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                  <div class="card__header">
+                    <svg width="80" viewBox="0 0 112 112">
+                      <g transform="translate(-380 -1326)">
+                        <path
+                          d="M56,0A56,56,0,1,1,0,56,56,56,0,0,1,56,0Z"
+                          transform="translate(380 1326)"
+                          fill="#e1f5fe"
+                        ></path>
+                        <g transform="translate(381.365 1353.547)">
+                          <path
+                            d="M54.349,0h.467a9.051,9.051,0,0,1,5.949,2.756A21.965,21.965,0,0,1,65.1,9.3a20.345,20.345,0,0,1,8.895.433,8.526,8.526,0,0,1,4.468,3.213,8.178,8.178,0,0,1,1.328,5.275A15.832,15.832,0,0,1,78.073,24a32.212,32.212,0,0,1-2.753,4.45,33.7,33.7,0,0,1,1.971,3.023,21.2,21.2,0,0,1,1.263,2.5,12.589,12.589,0,0,1,1.1,6.919,7.591,7.591,0,0,1-2.946,4.857,11.267,11.267,0,0,1-5.5,2.007,24.041,24.041,0,0,1-6.117-.162,21.779,21.779,0,0,1-4.385,6.6,9.038,9.038,0,0,1-5.892,2.707h-.365a8.2,8.2,0,0,1-4.156-1.321,14.943,14.943,0,0,1-4.534-4.926c-.617-.98-1.108-2.034-1.632-3.065a18.618,18.618,0,0,1-9.6-.7,7.973,7.973,0,0,1-4.569-4.555,10.417,10.417,0,0,1,.22-6.992,25.253,25.253,0,0,1,3.733-6.889,25.3,25.3,0,0,1-3.732-6.882,10.708,10.708,0,0,1-.38-6.519,7.6,7.6,0,0,1,3.045-4.141A11.292,11.292,0,0,1,38.2,9.129a24.773,24.773,0,0,1,5.967.171,21.717,21.717,0,0,1,4.328-6.546A9.121,9.121,0,0,1,54.349,0M51.222,3.813a15.822,15.822,0,0,0-4.479,6.005,46.22,46.22,0,0,1,7.88,2.685,46.765,46.765,0,0,1,7.9-2.692,17.145,17.145,0,0,0-3.858-5.5,6.414,6.414,0,0,0-3.8-1.747,5.676,5.676,0,0,0-3.637,1.249M36.831,11.94a6.567,6.567,0,0,0-3.976,2.512,6.344,6.344,0,0,0-.71,4.538,19.1,19.1,0,0,0,3.415,7.379,51.663,51.663,0,0,1,5.484-5.378,48.833,48.833,0,0,1,2.141-9.253,18.03,18.03,0,0,0-6.354.2m29.252-.193A49.184,49.184,0,0,1,68.213,21a51.054,51.054,0,0,1,5.475,5.378,19.5,19.5,0,0,0,3.391-7.257,6.56,6.56,0,0,0-.594-4.528A5.73,5.73,0,0,0,73.537,12.3a16.1,16.1,0,0,0-7.454-.556m-22.1,6.96c.644-.438,1.283-.881,1.925-1.321A57.116,57.116,0,0,1,51.549,14a41.847,41.847,0,0,0-5.816-1.788,42.383,42.383,0,0,0-1.75,6.5M57.7,14A61.458,61.458,0,0,1,65.265,18.7a42.337,42.337,0,0,0-1.748-6.494A39.343,39.343,0,0,0,57.7,14M51.675,16.83q-1.442.834-2.872,1.686-1.369.905-2.727,1.825-1.33.994-2.649,2c-.1,1.445-.276,2.885-.281,4.335a58.945,58.945,0,0,0,.283,7.886c1.223.925,2.421,1.885,3.71,2.717,1.357.969,2.821,1.772,4.248,2.63,1.071.569,2.155,1.113,3.233,1.668a56.309,56.309,0,0,0,9.264-5.549c.629-.509,1.324-.948,1.914-1.5a57.116,57.116,0,0,0,.072-11.415c-.063-.321.069-.768-.282-.952-1.041-.769-2.039-1.6-3.13-2.3-1.515-1.081-3.134-2-4.738-2.943-1.03-.538-2.066-1.063-3.1-1.6-.985.5-1.969,1-2.948,1.506M37.16,28.453c.764.837,1.479,1.719,2.3,2.5.408.4.811.808,1.223,1.207a64.748,64.748,0,0,1,0-7.417,49.732,49.732,0,0,0-3.521,3.707m31.416-3.71a63.091,63.091,0,0,1,0,7.421A50.734,50.734,0,0,0,72.1,28.453a50.48,50.48,0,0,0-3.523-3.71M35.547,30.513a25.722,25.722,0,0,0-2.426,4.206,10.168,10.168,0,0,0-.918,6.275,5.3,5.3,0,0,0,3.266,3.515,15.634,15.634,0,0,0,7.7.645,47.693,47.693,0,0,1-1.964-8.085,11.167,11.167,0,0,0-.2-1.187c-.2-.219-.442-.4-.662-.594a50.133,50.133,0,0,1-4.8-4.776M68.568,35.6c-.151.144-.375.267-.37.506a45.848,45.848,0,0,1-1.173,5.909c-.249,1.065-.634,2.091-.932,3.141a18.175,18.175,0,0,0,6.2-.163,6.6,6.6,0,0,0,4.12-2.54,6.374,6.374,0,0,0,.7-4.551,19.528,19.528,0,0,0-3.393-7.373A50.982,50.982,0,0,1,68.568,35.6M43.982,38.2a42.332,42.332,0,0,0,1.749,6.5,39.5,39.5,0,0,0,5.816-1.786,64.818,64.818,0,0,1-7.565-4.71M62.437,40.15c-1.532.991-3.122,1.886-4.724,2.759A41.853,41.853,0,0,0,63.531,44.7a42.461,42.461,0,0,0,1.749-6.5c-.95.647-1.895,1.3-2.843,1.952M46.744,47.093a15.852,15.852,0,0,0,4.49,6.008,5.718,5.718,0,0,0,3.505,1.244,6.617,6.617,0,0,0,4.268-2.071,17.884,17.884,0,0,0,3.515-5.188A45.879,45.879,0,0,1,54.642,44.4,46.922,46.922,0,0,1,46.744,47.093Z"
+                            fill="#1e88e5"
+                          ></path>
+                          <path
+                            d="M215.189,210.785a5.786,5.786,0,1,1-4.249,3.77,5.813,5.813,0,0,1,4.249-3.77m.384,2.916a2.861,2.861,0,1,0,3.506,1.728A2.866,2.866,0,0,0,215.573,213.7Z"
+                            transform="translate(-161.771 -187.986)"
+                            fill="#1e88e5"
+                          ></path>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="card__middle">
+                    <h2 class="card__title">
+                      React JS | Full course with 2 big projects + Mentorship
+                    </h2>
+                    <div class="card__time flex-align-center">
+                      <svg
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <circle cx="12" cy="12" r="8.5" stroke="#7c3aed" />
+                          <path
+                            d="M16.5 12H12.25C12.1119 12 12 11.8881 12 11.75V8.5"
+                            stroke="#7c3aed"
+                            stroke-linecap="round"
+                          />
+                        </g>
+                      </svg>
+                      <span class="card__time-text">62 hours</span>
+                    </div>
+                    <div class="card__student-price flex-align-center">
+                      <div class="card__student flex-align-center">
+                        <svg
+                          width="20px"
+                          height="20px"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                        >
+                          <g stroke-width="0" />
+
+                          <g stroke-linecap="round" stroke-linejoin="round" />
+
+                          <g>
+                            <path
+                              d="M4 14.5V11.165L8.00843 13.4663C9.24174 14.1743 10.7583 14.1743 11.9916 13.4663L16 11.165V14.5C16 14.6326 15.9473 14.7598 15.8536 14.8536L15.852 14.8551L15.8496 14.8574L15.8428 14.8642L15.8201 14.8859C15.801 14.9039 15.7741 14.9288 15.7394 14.9596C15.6701 15.0213 15.5696 15.1067 15.4389 15.2079C15.1777 15.41 14.7948 15.6761 14.2978 15.9412C13.3033 16.4716 11.8479 17 10 17C8.15211 17 6.69675 16.4716 5.70221 15.9412C5.20518 15.6761 4.82226 15.41 4.5611 15.2079C4.43043 15.1067 4.32994 15.0213 4.26059 14.9596C4.22591 14.9288 4.19898 14.9039 4.17992 14.8859L4.15724 14.8642C4.05938 14.7684 4 14.6378 4 14.5Z"
+                              fill="#5e81d1"
+                            />
+                            <path
+                              d="M18.7489 8.43369L11.4937 12.599C10.5687 13.1301 9.4313 13.1301 8.50632 12.599L2 8.86367L2 13.5C2 13.7761 1.77614 14 1.5 14C1.22386 14 1 13.7761 1 13.5V8.00008C1 7.81007 1.10598 7.64474 1.26206 7.56014L8.5063 3.40104C8.85317 3.20189 9.22992 3.07743 9.61413 3.02764C9.73586 3.01187 9.85834 3.00359 9.98086 3.00281C10.3739 3.0003 10.7674 3.07496 11.1377 3.22679C11.2591 3.27658 11.3781 3.33466 11.4937 3.40104L18.749 7.56646C18.9042 7.65561 19 7.82101 19 8.00008C19 8.17914 18.9042 8.34454 18.7489 8.43369Z"
+                              fill="#5e81d1"
+                            />
+                          </g>
+                        </svg>
+                        <span class="card__student-number"> 580 Studetns</span>
+                      </div>
+                      <span class="card__price">180$</span>
+                    </div>
+                  </div>
+                  <div class="card__footer flex-align-center">
+                    <a href="#" class="app-btn card__btn">Enroll</a>
+                    <span class="card__detail flex-align-center"
+                      ><a href="#" class="card__detail-link">Course detail</a>
+                      <svg
+                        width="18px"
+                        height="18px"
+                        viewBox="-1 0 12 12"
+                        version="1.1"
+                        fill="#000000"
+                        class="card__svg"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <title>play [#1000]</title>
+                          <desc>Created with Sketch.</desc>
+                          <defs></defs>
+                          <g
+                            id="Page-1"
+                            stroke="none"
+                            stroke-width="1"
+                            fill="none"
+                            fill-rule="evenodd"
+                          >
+                            <g
+                              id="Dribbble-Light-Preview"
+                              transform="translate(-65.000000, -3803.000000)"
+                              fill="#7c3aed"
+                            >
+                              <g
+                                id="icons"
+                                transform="translate(56.000000, 160.000000)"
+                              >
+                                <path
+                                  d="M18.074,3650.7335 L12.308,3654.6315 C10.903,3655.5815 9,3654.5835 9,3652.8985 L9,3645.1015 C9,3643.4155 10.903,3642.4185 12.308,3643.3685 L18.074,3647.2665 C19.306,3648.0995 19.306,3649.9005 18.074,3650.7335"
+                                  id="play-[#1000]"
+                                ></path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                  <div class="card__header">
+                    <svg width="80" viewBox="0 0 112 112" fill="none">
+                      <path
+                        d="M56 112C86.9279 112 112 86.9279 112 56C112 25.0721 86.9279 0 56 0C25.0721 0 0 25.0721 0 56C0 86.9279 25.0721 112 56 112Z"
+                        fill="#FFF9C4"
+                      ></path>
+                      <path
+                        d="M45 34C42.0618 34 39.2995 35.1442 37.2218 37.2218C35.1442 39.2995 34 42.0618 34 45V67C34 69.9382 35.1442 72.7005 37.2218 74.7782C39.2995 76.8558 42.0618 78 45 78H67C69.9382 78 72.7005 76.8558 74.7782 74.7782C76.8558 72.7005 78 69.9382 78 67V45C78 42.0618 76.8558 39.2995 74.7782 37.2218C72.7005 35.1442 69.9382 34 67 34H45ZM45 30H67C75.2843 30 82 36.7157 82 45V67C82 75.2843 75.2843 82 67 82H45C36.7157 82 30 75.2843 30 67V45C30 36.7157 36.7157 30 45 30Z"
+                        fill="#FBC02D"
+                      ></path>
+                      <path
+                        d="M52.6372 62.8086V50.7266H56.2466V62.75C56.2466 64.2188 55.9927 65.3828 55.4849 66.2422C54.6255 67.6953 53.0747 68.4219 50.8325 68.4219C48.5903 68.4219 47.0864 67.8359 46.3208 66.6641C45.5552 65.4844 45.1724 63.8789 45.1724 61.8477V61.4492H48.5825V61.8477C48.6138 63.1836 48.7583 64.125 49.0161 64.6719C49.2817 65.2109 49.8442 65.4805 50.7036 65.4805C51.5552 65.4805 52.1177 65.1836 52.3911 64.5898C52.5552 64.2383 52.6372 63.6445 52.6372 62.8086ZM66.1021 65.5039C66.9536 65.5039 67.645 65.4102 68.1763 65.2227C69.1841 64.8633 69.688 64.1953 69.688 63.2188C69.688 62.6484 69.438 62.207 68.938 61.8945C68.438 61.5898 67.6528 61.3203 66.5825 61.0859L64.7544 60.6758C62.9575 60.2695 61.7153 59.8281 61.0278 59.3516C59.8638 58.5547 59.2817 57.3086 59.2817 55.6133C59.2817 54.0664 59.8442 52.7812 60.9692 51.7578C62.0942 50.7344 63.7466 50.2227 65.9263 50.2227C67.7466 50.2227 69.2974 50.707 70.5786 51.6758C71.8677 52.6367 72.5435 54.0352 72.606 55.8711H69.1372C69.0747 54.832 68.6216 54.0938 67.7778 53.6562C67.2153 53.3672 66.5161 53.2227 65.6802 53.2227C64.7505 53.2227 64.0083 53.4102 63.4536 53.7852C62.8989 54.1602 62.6216 54.6836 62.6216 55.3555C62.6216 55.9727 62.895 56.4336 63.4419 56.7383C63.7935 56.9414 64.5435 57.1797 65.6919 57.4531L68.6685 58.168C69.9731 58.4805 70.9575 58.8984 71.6216 59.4219C72.6528 60.2344 73.1685 61.4102 73.1685 62.9492C73.1685 64.5273 72.563 65.8398 71.3521 66.8867C70.1489 67.9258 68.4458 68.4453 66.2427 68.4453C63.9927 68.4453 62.2231 67.9336 60.9341 66.9102C59.645 65.8789 59.0005 64.4648 59.0005 62.668H62.4458C62.5552 63.457 62.77 64.0469 63.0903 64.4375C63.6763 65.1484 64.6802 65.5039 66.1021 65.5039Z"
+                        fill="#FBC02D"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="card__middle">
+                    <h2 class="card__title">
+                      JavaScript | Full course form basic to advanced level
+                    </h2>
+                    <div class="card__time flex-align-center">
+                      <svg
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <circle cx="12" cy="12" r="8.5" stroke="#7c3aed" />
+                          <path
+                            d="M16.5 12H12.25C12.1119 12 12 11.8881 12 11.75V8.5"
+                            stroke="#7c3aed"
+                            stroke-linecap="round"
+                          />
+                        </g>
+                      </svg>
+                      <span class="card__time-text">72 hours</span>
+                    </div>
+                    <div class="card__student-price flex-align-center">
+                      <div class="card__student flex-align-center">
+                        <svg
+                          width="20px"
+                          height="20px"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                        >
+                          <g stroke-width="0" />
+
+                          <g stroke-linecap="round" stroke-linejoin="round" />
+
+                          <g>
+                            <path
+                              d="M4 14.5V11.165L8.00843 13.4663C9.24174 14.1743 10.7583 14.1743 11.9916 13.4663L16 11.165V14.5C16 14.6326 15.9473 14.7598 15.8536 14.8536L15.852 14.8551L15.8496 14.8574L15.8428 14.8642L15.8201 14.8859C15.801 14.9039 15.7741 14.9288 15.7394 14.9596C15.6701 15.0213 15.5696 15.1067 15.4389 15.2079C15.1777 15.41 14.7948 15.6761 14.2978 15.9412C13.3033 16.4716 11.8479 17 10 17C8.15211 17 6.69675 16.4716 5.70221 15.9412C5.20518 15.6761 4.82226 15.41 4.5611 15.2079C4.43043 15.1067 4.32994 15.0213 4.26059 14.9596C4.22591 14.9288 4.19898 14.9039 4.17992 14.8859L4.15724 14.8642C4.05938 14.7684 4 14.6378 4 14.5Z"
+                              fill="#5e81d1"
+                            />
+                            <path
+                              d="M18.7489 8.43369L11.4937 12.599C10.5687 13.1301 9.4313 13.1301 8.50632 12.599L2 8.86367L2 13.5C2 13.7761 1.77614 14 1.5 14C1.22386 14 1 13.7761 1 13.5V8.00008C1 7.81007 1.10598 7.64474 1.26206 7.56014L8.5063 3.40104C8.85317 3.20189 9.22992 3.07743 9.61413 3.02764C9.73586 3.01187 9.85834 3.00359 9.98086 3.00281C10.3739 3.0003 10.7674 3.07496 11.1377 3.22679C11.2591 3.27658 11.3781 3.33466 11.4937 3.40104L18.749 7.56646C18.9042 7.65561 19 7.82101 19 8.00008C19 8.17914 18.9042 8.34454 18.7489 8.43369Z"
+                              fill="#5e81d1"
+                            />
+                          </g>
+                        </svg>
+                        <span class="card__student-number"> 2743 Studetns</span>
+                      </div>
+                      <span class="card__price">99$</span>
+                    </div>
+                  </div>
+                  <div class="card__footer flex-align-center">
+                    <a href="#" class="app-btn card__btn">Enroll</a>
+                    <span class="card__detail flex-align-center"
+                      ><a href="#" class="card__detail-link">Course detail</a>
+                      <svg
+                        width="18px"
+                        height="18px"
+                        viewBox="-1 0 12 12"
+                        version="1.1"
+                        fill="#000000"
+                        class="card__svg"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <title>play [#1000]</title>
+                          <desc>Created with Sketch.</desc>
+                          <defs></defs>
+                          <g
+                            id="Page-1"
+                            stroke="none"
+                            stroke-width="1"
+                            fill="none"
+                            fill-rule="evenodd"
+                          >
+                            <g
+                              id="Dribbble-Light-Preview"
+                              transform="translate(-65.000000, -3803.000000)"
+                              fill="#7c3aed"
+                            >
+                              <g
+                                id="icons"
+                                transform="translate(56.000000, 160.000000)"
+                              >
+                                <path
+                                  d="M18.074,3650.7335 L12.308,3654.6315 C10.903,3655.5815 9,3654.5835 9,3652.8985 L9,3645.1015 C9,3643.4155 10.903,3642.4185 12.308,3643.3685 L18.074,3647.2665 C19.306,3648.0995 19.306,3649.9005 18.074,3650.7335"
+                                  id="play-[#1000]"
+                                ></path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                  <div class="card__header">
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 112 112"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_1423_357)">
+                        <path
+                          d="M56 112C86.9279 112 112 86.9279 112 56C112 25.0721 86.9279 0 56 0C25.0721 0 0 25.0721 0 56C0 86.9279 25.0721 112 56 112Z"
+                          fill="#3178C6"
+                          fill-opacity="0.18"
+                        ></path>
+                        <g clip-path="url(#clip1_1423_357)">
+                          <path
+                            d="M45 34C42.0618 34 39.2995 35.1442 37.2218 37.2218C35.1442 39.2995 34 42.0618 34 45V67C34 69.9382 35.1442 72.7005 37.2218 74.7782C39.2995 76.8558 42.0618 78 45 78H67C69.9382 78 72.7005 76.8558 74.7782 74.7782C76.8558 72.7005 78 69.9382 78 67V45C78 42.0618 76.8558 39.2995 74.7782 37.2218C72.7005 35.1442 69.9382 34 67 34H45ZM45 30H67C75.2843 30 82 36.7157 82 45V67C82 75.2843 75.2843 82 67 82H45C36.7157 82 30 75.2843 30 67V45C30 36.7157 36.7157 30 45 30Z"
+                            fill="#3178C6"
+                          ></path>
+                          <path
+                            d="M54.3789 50.7266V53.7852H49.2109V68H45.5781V53.7852H40.3867V50.7266H54.3789ZM62.7695 65.5039C63.6211 65.5039 64.3125 65.4102 64.8438 65.2227C65.8516 64.8633 66.3555 64.1953 66.3555 63.2188C66.3555 62.6484 66.1055 62.207 65.6055 61.8945C65.1055 61.5898 64.3203 61.3203 63.25 61.0859L61.4219 60.6758C59.625 60.2695 58.3828 59.8281 57.6953 59.3516C56.5312 58.5547 55.9492 57.3086 55.9492 55.6133C55.9492 54.0664 56.5117 52.7812 57.6367 51.7578C58.7617 50.7344 60.4141 50.2227 62.5938 50.2227C64.4141 50.2227 65.9648 50.707 67.2461 51.6758C68.5352 52.6367 69.2109 54.0352 69.2734 55.8711H65.8047C65.7422 54.832 65.2891 54.0938 64.4453 53.6562C63.8828 53.3672 63.1836 53.2227 62.3477 53.2227C61.418 53.2227 60.6758 53.4102 60.1211 53.7852C59.5664 54.1602 59.2891 54.6836 59.2891 55.3555C59.2891 55.9727 59.5625 56.4336 60.1094 56.7383C60.4609 56.9414 61.2109 57.1797 62.3594 57.4531L65.3359 58.168C66.6406 58.4805 67.625 58.8984 68.2891 59.4219C69.3203 60.2344 69.8359 61.4102 69.8359 62.9492C69.8359 64.5273 69.2305 65.8398 68.0195 66.8867C66.8164 67.9258 65.1133 68.4453 62.9102 68.4453C60.6602 68.4453 58.8906 67.9336 57.6016 66.9102C56.3125 65.8789 55.668 64.4648 55.668 62.668H59.1133C59.2227 63.457 59.4375 64.0469 59.7578 64.4375C60.3438 65.1484 61.3477 65.5039 62.7695 65.5039Z"
+                            fill="#3178C6"
+                          ></path>
+                        </g>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1423_357">
+                          <rect width="112" height="112" fill="white"></rect>
+                        </clipPath>
+                        <clipPath id="clip1_1423_357">
+                          <rect
+                            width="52"
+                            height="52"
+                            fill="white"
+                            transform="translate(30 30)"
+                          ></rect>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="card__middle">
+                    <h2 class="card__title">
+                      TypeScript course | from zero to high level
+                    </h2>
+                    <div class="card__time flex-align-center">
+                      <svg
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <circle cx="12" cy="12" r="8.5" stroke="#7c3aed" />
+                          <path
+                            d="M16.5 12H12.25C12.1119 12 12 11.8881 12 11.75V8.5"
+                            stroke="#7c3aed"
+                            stroke-linecap="round"
+                          />
+                        </g>
+                      </svg>
+                      <span class="card__time-text">18 hours</span>
+                    </div>
+                    <div class="card__student-price flex-align-center">
+                      <div class="card__student flex-align-center">
+                        <svg
+                          width="20px"
+                          height="20px"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                        >
+                          <g stroke-width="0" />
+
+                          <g stroke-linecap="round" stroke-linejoin="round" />
+
+                          <g>
+                            <path
+                              d="M4 14.5V11.165L8.00843 13.4663C9.24174 14.1743 10.7583 14.1743 11.9916 13.4663L16 11.165V14.5C16 14.6326 15.9473 14.7598 15.8536 14.8536L15.852 14.8551L15.8496 14.8574L15.8428 14.8642L15.8201 14.8859C15.801 14.9039 15.7741 14.9288 15.7394 14.9596C15.6701 15.0213 15.5696 15.1067 15.4389 15.2079C15.1777 15.41 14.7948 15.6761 14.2978 15.9412C13.3033 16.4716 11.8479 17 10 17C8.15211 17 6.69675 16.4716 5.70221 15.9412C5.20518 15.6761 4.82226 15.41 4.5611 15.2079C4.43043 15.1067 4.32994 15.0213 4.26059 14.9596C4.22591 14.9288 4.19898 14.9039 4.17992 14.8859L4.15724 14.8642C4.05938 14.7684 4 14.6378 4 14.5Z"
+                              fill="#5e81d1"
+                            />
+                            <path
+                              d="M18.7489 8.43369L11.4937 12.599C10.5687 13.1301 9.4313 13.1301 8.50632 12.599L2 8.86367L2 13.5C2 13.7761 1.77614 14 1.5 14C1.22386 14 1 13.7761 1 13.5V8.00008C1 7.81007 1.10598 7.64474 1.26206 7.56014L8.5063 3.40104C8.85317 3.20189 9.22992 3.07743 9.61413 3.02764C9.73586 3.01187 9.85834 3.00359 9.98086 3.00281C10.3739 3.0003 10.7674 3.07496 11.1377 3.22679C11.2591 3.27658 11.3781 3.33466 11.4937 3.40104L18.749 7.56646C18.9042 7.65561 19 7.82101 19 8.00008C19 8.17914 18.9042 8.34454 18.7489 8.43369Z"
+                              fill="#5e81d1"
+                            />
+                          </g>
+                        </svg>
+                        <span class="card__student-number"> 844 Studetns</span>
+                      </div>
+                      <span class="card__price">80$</span>
+                    </div>
+                  </div>
+                  <div class="card__footer flex-align-center">
+                    <a href="#" class="app-btn card__btn">Enroll</a>
+                    <span class="card__detail flex-align-center"
+                      ><a href="#" class="card__detail-link">Course detail</a>
+                      <svg
+                        width="18px"
+                        height="18px"
+                        viewBox="-1 0 12 12"
+                        version="1.1"
+                        fill="#000000"
+                        class="card__svg"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <title>play [#1000]</title>
+                          <desc>Created with Sketch.</desc>
+                          <defs></defs>
+                          <g
+                            id="Page-1"
+                            stroke="none"
+                            stroke-width="1"
+                            fill="none"
+                            fill-rule="evenodd"
+                          >
+                            <g
+                              id="Dribbble-Light-Preview"
+                              transform="translate(-65.000000, -3803.000000)"
+                              fill="#7c3aed"
+                            >
+                              <g
+                                id="icons"
+                                transform="translate(56.000000, 160.000000)"
+                              >
+                                <path
+                                  d="M18.074,3650.7335 L12.308,3654.6315 C10.903,3655.5815 9,3654.5835 9,3652.8985 L9,3645.1015 C9,3643.4155 10.903,3642.4185 12.308,3643.3685 L18.074,3647.2665 C19.306,3648.0995 19.306,3649.9005 18.074,3650.7335"
+                                  id="play-[#1000]"
+                                ></path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                  <div class="card__header">
+                    <svg width="80" viewBox="0 0 114 115" fill="none">
+                      <circle cx="57" cy="57" r="56" fill="black"></circle>
+                      <path
+                        d="M54.9645 0.0001534C54.1285 0.0001534 53.492 0.0049036 53.264 0.0334048C52.6881 0.0909863 52.1117 0.143241 51.5349 0.190161C35.351 1.64372 20.1836 10.3793 10.5787 23.8081C5.26688 31.1782 1.81375 39.7222 0.513021 48.7134C0.0570023 51.8438 0 52.7701 0 57.012C0 61.254 0.0570023 62.185 0.513021 65.3154C3.61015 86.7198 18.8488 104.704 39.5074 111.369C43.2078 112.556 47.1077 113.373 51.5444 113.862C53.2687 114.052 60.736 114.052 62.4651 113.862C70.1177 113.017 76.6064 111.122 83.0002 107.858C83.9835 107.355 84.1735 107.222 84.0405 107.108C83.9455 107.046 79.7653 101.441 74.7539 94.6621L65.6382 82.3496L54.2188 65.4484C50.4196 59.7935 46.5845 54.1628 42.7138 48.5567C42.671 48.5472 42.6283 56.0572 42.6045 65.2299C42.5713 81.2855 42.557 81.9268 42.3575 82.3068C42.1639 82.7521 41.8165 83.1129 41.379 83.3234C41.0227 83.4991 40.7139 83.5324 39.0276 83.5324H37.0943L36.5813 83.2094C36.2641 83.0106 36.0065 82.73 35.8355 82.3971L35.598 81.8936L35.6265 59.5534L35.6597 37.2037L36.0017 36.7667C36.2353 36.4935 36.5151 36.2636 36.8283 36.0874C37.2843 35.8641 37.4648 35.8451 39.3934 35.8451C41.664 35.8451 42.044 35.9306 42.633 36.5767C47.2556 43.4561 51.8397 50.3614 56.3848 57.2923C63.8777 68.6483 71.3751 80.0012 78.877 91.3512L87.9024 105.027L88.3584 104.728C92.7037 101.84 96.6433 98.3849 100.072 94.4531C107.254 86.2331 111.911 76.1161 113.487 65.3154C113.943 62.1802 114 61.2587 114 57.012C114 52.7701 113.943 51.8438 113.487 48.7134C110.39 27.309 95.156 9.32479 74.4973 2.66026C70.6348 1.43226 66.6574 0.599866 62.6266 0.175911C60.076 0.0551907 57.5228 -0.00341248 54.9693 0.0001534H54.9645ZM74.2931 34.2823C75.9414 34.2823 76.2312 34.3061 76.6017 34.5056C76.8671 34.6395 77.1032 34.8248 77.2964 35.0507C77.4897 35.2765 77.6362 35.5385 77.7275 35.8214C77.813 36.1064 77.8367 42.3054 77.813 56.2662L77.7845 76.3026L74.2503 70.8874L70.7067 65.4721V50.908C70.7067 41.4931 70.7542 36.1967 70.8159 35.9449C70.8956 35.6478 71.0347 35.3699 71.225 35.1282C71.4152 34.8865 71.6526 34.686 71.9227 34.5388C72.3788 34.3013 72.5403 34.2823 74.2978 34.2823H74.2931Z"
+                        fill="#D6D7E1"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="card__middle">
+                    <h2 class="card__title">
+                      Next JS full course form zero to expert
+                    </h2>
+                    <div class="card__time flex-align-center">
+                      <svg
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <circle cx="12" cy="12" r="8.5" stroke="#7c3aed" />
+                          <path
+                            d="M16.5 12H12.25C12.1119 12 12 11.8881 12 11.75V8.5"
+                            stroke="#7c3aed"
+                            stroke-linecap="round"
+                          />
+                        </g>
+                      </svg>
+                      <span class="card__time-text">35 hours</span>
+                    </div>
+                    <div class="card__student-price flex-align-center">
+                      <div class="card__student flex-align-center">
+                        <svg
+                          width="20px"
+                          height="20px"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                        >
+                          <g stroke-width="0" />
+
+                          <g stroke-linecap="round" stroke-linejoin="round" />
+
+                          <g>
+                            <path
+                              d="M4 14.5V11.165L8.00843 13.4663C9.24174 14.1743 10.7583 14.1743 11.9916 13.4663L16 11.165V14.5C16 14.6326 15.9473 14.7598 15.8536 14.8536L15.852 14.8551L15.8496 14.8574L15.8428 14.8642L15.8201 14.8859C15.801 14.9039 15.7741 14.9288 15.7394 14.9596C15.6701 15.0213 15.5696 15.1067 15.4389 15.2079C15.1777 15.41 14.7948 15.6761 14.2978 15.9412C13.3033 16.4716 11.8479 17 10 17C8.15211 17 6.69675 16.4716 5.70221 15.9412C5.20518 15.6761 4.82226 15.41 4.5611 15.2079C4.43043 15.1067 4.32994 15.0213 4.26059 14.9596C4.22591 14.9288 4.19898 14.9039 4.17992 14.8859L4.15724 14.8642C4.05938 14.7684 4 14.6378 4 14.5Z"
+                              fill="#5e81d1"
+                            />
+                            <path
+                              d="M18.7489 8.43369L11.4937 12.599C10.5687 13.1301 9.4313 13.1301 8.50632 12.599L2 8.86367L2 13.5C2 13.7761 1.77614 14 1.5 14C1.22386 14 1 13.7761 1 13.5V8.00008C1 7.81007 1.10598 7.64474 1.26206 7.56014L8.5063 3.40104C8.85317 3.20189 9.22992 3.07743 9.61413 3.02764C9.73586 3.01187 9.85834 3.00359 9.98086 3.00281C10.3739 3.0003 10.7674 3.07496 11.1377 3.22679C11.2591 3.27658 11.3781 3.33466 11.4937 3.40104L18.749 7.56646C18.9042 7.65561 19 7.82101 19 8.00008C19 8.17914 18.9042 8.34454 18.7489 8.43369Z"
+                              fill="#5e81d1"
+                            />
+                          </g>
+                        </svg>
+                        <span class="card__student-number"> 1247 Studetns</span>
+                      </div>
+                      <span class="card__price">140$</span>
+                    </div>
+                  </div>
+                  <div class="card__footer flex-align-center">
+                    <a href="#" class="app-btn card__btn">Enroll</a>
+                    <span class="card__detail flex-align-center"
+                      ><a href="#" class="card__detail-link">Course detail</a>
+                      <svg
+                        width="18px"
+                        height="18px"
+                        viewBox="-1 0 12 12"
+                        version="1.1"
+                        fill="#000000"
+                        class="card__svg"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <title>play [#1000]</title>
+                          <desc>Created with Sketch.</desc>
+                          <defs></defs>
+                          <g
+                            id="Page-1"
+                            stroke="none"
+                            stroke-width="1"
+                            fill="none"
+                            fill-rule="evenodd"
+                          >
+                            <g
+                              id="Dribbble-Light-Preview"
+                              transform="translate(-65.000000, -3803.000000)"
+                              fill="#7c3aed"
+                            >
+                              <g
+                                id="icons"
+                                transform="translate(56.000000, 160.000000)"
+                              >
+                                <path
+                                  d="M18.074,3650.7335 L12.308,3654.6315 C10.903,3655.5815 9,3654.5835 9,3652.8985 L9,3645.1015 C9,3643.4155 10.903,3642.4185 12.308,3643.3685 L18.074,3647.2665 C19.306,3648.0995 19.306,3649.9005 18.074,3650.7335"
+                                  id="play-[#1000]"
+                                ></path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                  <div class="card__header">
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 112 112"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_1423_357)">
+                        <path
+                          d="M56 112C86.9279 112 112 86.9279 112 56C112 25.0721 86.9279 0 56 0C25.0721 0 0 25.0721 0 56C0 86.9279 25.0721 112 56 112Z"
+                          fill="#3178C6"
+                          fill-opacity="0.18"
+                        ></path>
+                        <g clip-path="url(#clip1_1423_357)">
+                          <path
+                            d="M45 34C42.0618 34 39.2995 35.1442 37.2218 37.2218C35.1442 39.2995 34 42.0618 34 45V67C34 69.9382 35.1442 72.7005 37.2218 74.7782C39.2995 76.8558 42.0618 78 45 78H67C69.9382 78 72.7005 76.8558 74.7782 74.7782C76.8558 72.7005 78 69.9382 78 67V45C78 42.0618 76.8558 39.2995 74.7782 37.2218C72.7005 35.1442 69.9382 34 67 34H45ZM45 30H67C75.2843 30 82 36.7157 82 45V67C82 75.2843 75.2843 82 67 82H45C36.7157 82 30 75.2843 30 67V45C30 36.7157 36.7157 30 45 30Z"
+                            fill="#3178C6"
+                          ></path>
+                          <path
+                            d="M54.3789 50.7266V53.7852H49.2109V68H45.5781V53.7852H40.3867V50.7266H54.3789ZM62.7695 65.5039C63.6211 65.5039 64.3125 65.4102 64.8438 65.2227C65.8516 64.8633 66.3555 64.1953 66.3555 63.2188C66.3555 62.6484 66.1055 62.207 65.6055 61.8945C65.1055 61.5898 64.3203 61.3203 63.25 61.0859L61.4219 60.6758C59.625 60.2695 58.3828 59.8281 57.6953 59.3516C56.5312 58.5547 55.9492 57.3086 55.9492 55.6133C55.9492 54.0664 56.5117 52.7812 57.6367 51.7578C58.7617 50.7344 60.4141 50.2227 62.5938 50.2227C64.4141 50.2227 65.9648 50.707 67.2461 51.6758C68.5352 52.6367 69.2109 54.0352 69.2734 55.8711H65.8047C65.7422 54.832 65.2891 54.0938 64.4453 53.6562C63.8828 53.3672 63.1836 53.2227 62.3477 53.2227C61.418 53.2227 60.6758 53.4102 60.1211 53.7852C59.5664 54.1602 59.2891 54.6836 59.2891 55.3555C59.2891 55.9727 59.5625 56.4336 60.1094 56.7383C60.4609 56.9414 61.2109 57.1797 62.3594 57.4531L65.3359 58.168C66.6406 58.4805 67.625 58.8984 68.2891 59.4219C69.3203 60.2344 69.8359 61.4102 69.8359 62.9492C69.8359 64.5273 69.2305 65.8398 68.0195 66.8867C66.8164 67.9258 65.1133 68.4453 62.9102 68.4453C60.6602 68.4453 58.8906 67.9336 57.6016 66.9102C56.3125 65.8789 55.668 64.4648 55.668 62.668H59.1133C59.2227 63.457 59.4375 64.0469 59.7578 64.4375C60.3438 65.1484 61.3477 65.5039 62.7695 65.5039Z"
+                            fill="#3178C6"
+                          ></path>
+                        </g>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1423_357">
+                          <rect width="112" height="112" fill="white"></rect>
+                        </clipPath>
+                        <clipPath id="clip1_1423_357">
+                          <rect
+                            width="52"
+                            height="52"
+                            fill="white"
+                            transform="translate(30 30)"
+                          ></rect>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="card__middle">
+                    <h2 class="card__title">
+                      TypeScript course | from zero to high level
+                    </h2>
+                    <div class="card__time flex-align-center">
+                      <svg
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <circle cx="12" cy="12" r="8.5" stroke="#7c3aed" />
+                          <path
+                            d="M16.5 12H12.25C12.1119 12 12 11.8881 12 11.75V8.5"
+                            stroke="#7c3aed"
+                            stroke-linecap="round"
+                          />
+                        </g>
+                      </svg>
+                      <span class="card__time-text">18 hours</span>
+                    </div>
+                    <div class="card__student-price flex-align-center">
+                      <div class="card__student flex-align-center">
+                        <svg
+                          width="20px"
+                          height="20px"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                        >
+                          <g stroke-width="0" />
+
+                          <g stroke-linecap="round" stroke-linejoin="round" />
+
+                          <g>
+                            <path
+                              d="M4 14.5V11.165L8.00843 13.4663C9.24174 14.1743 10.7583 14.1743 11.9916 13.4663L16 11.165V14.5C16 14.6326 15.9473 14.7598 15.8536 14.8536L15.852 14.8551L15.8496 14.8574L15.8428 14.8642L15.8201 14.8859C15.801 14.9039 15.7741 14.9288 15.7394 14.9596C15.6701 15.0213 15.5696 15.1067 15.4389 15.2079C15.1777 15.41 14.7948 15.6761 14.2978 15.9412C13.3033 16.4716 11.8479 17 10 17C8.15211 17 6.69675 16.4716 5.70221 15.9412C5.20518 15.6761 4.82226 15.41 4.5611 15.2079C4.43043 15.1067 4.32994 15.0213 4.26059 14.9596C4.22591 14.9288 4.19898 14.9039 4.17992 14.8859L4.15724 14.8642C4.05938 14.7684 4 14.6378 4 14.5Z"
+                              fill="#5e81d1"
+                            />
+                            <path
+                              d="M18.7489 8.43369L11.4937 12.599C10.5687 13.1301 9.4313 13.1301 8.50632 12.599L2 8.86367L2 13.5C2 13.7761 1.77614 14 1.5 14C1.22386 14 1 13.7761 1 13.5V8.00008C1 7.81007 1.10598 7.64474 1.26206 7.56014L8.5063 3.40104C8.85317 3.20189 9.22992 3.07743 9.61413 3.02764C9.73586 3.01187 9.85834 3.00359 9.98086 3.00281C10.3739 3.0003 10.7674 3.07496 11.1377 3.22679C11.2591 3.27658 11.3781 3.33466 11.4937 3.40104L18.749 7.56646C18.9042 7.65561 19 7.82101 19 8.00008C19 8.17914 18.9042 8.34454 18.7489 8.43369Z"
+                              fill="#5e81d1"
+                            />
+                          </g>
+                        </svg>
+                        <span class="card__student-number"> 844 Studetns</span>
+                      </div>
+                      <span class="card__price">80$</span>
+                    </div>
+                  </div>
+                  <div class="card__footer flex-align-center">
+                    <a href="#" class="app-btn card__btn">Enroll</a>
+                    <span class="card__detail flex-align-center"
+                      ><a href="#" class="card__detail-link">Course detail</a>
+                      <svg
+                        width="18px"
+                        height="18px"
+                        viewBox="-1 0 12 12"
+                        version="1.1"
+                        fill="#000000"
+                        class="card__svg"
+                      >
+                        <g stroke-width="0" />
+
+                        <g stroke-linecap="round" stroke-linejoin="round" />
+
+                        <g>
+                          <title>play [#1000]</title>
+                          <desc>Created with Sketch.</desc>
+                          <defs></defs>
+                          <g
+                            id="Page-1"
+                            stroke="none"
+                            stroke-width="1"
+                            fill="none"
+                            fill-rule="evenodd"
+                          >
+                            <g
+                              id="Dribbble-Light-Preview"
+                              transform="translate(-65.000000, -3803.000000)"
+                              fill="#7c3aed"
+                            >
+                              <g
+                                id="icons"
+                                transform="translate(56.000000, 160.000000)"
+                              >
+                                <path
+                                  d="M18.074,3650.7335 L12.308,3654.6315 C10.903,3655.5815 9,3654.5835 9,3652.8985 L9,3645.1015 C9,3643.4155 10.903,3642.4185 12.308,3643.3685 L18.074,3647.2665 C19.306,3648.0995 19.306,3649.9005 18.074,3650.7335"
+                                  id="play-[#1000]"
+                                ></path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------------courses section finish------------------>
+      <!---------------me section start------------------>
+      <section class="me">
+        <div class="container">
+          <div class="me-wrapper flex">
+            <div class="me__left flex-align-justify-center">
+              <div class="box">
+                <div class="box__item">
+                  <div class="box__item second">
+                    <div class="box__item third"></div>
+                  </div>
+                </div>
+                <div class="box-arrow"></div>
+              </div>
+            </div>
+            <div class="me__right flex-align-justify-center">
+              <img src="images/photo.webp" alt="me" class="me__right-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------------me section finish------------------>
+      <!---------------students section start------------------>
+      <section class="students">
+        <div class="container">
+          <div class="students-wrapper flex">
+            <div class="students__left">
+              <div class="student__detail-wrapper">
+                <div class="student__detail-header flex-align-center">
+                  <svg
+                    class="text-dark-550 dark:text-white ml-4"
+                    width="30"
+                    height="28"
+                    viewBox="0 0 37 34"
+                    fill="none"
+                  >
+                    <circle cx="10" cy="24" r="10" fill="currentColor"></circle>
+                    <circle
+                      cx="30"
+                      cy="13"
+                      r="7"
+                      fill="currentColor"
+                      fill-opacity="0.4"
+                    ></circle>
+                    <circle
+                      cx="15"
+                      cy="4"
+                      r="4"
+                      fill="currentColor"
+                      fill-opacity="0.7"
+                    ></circle>
+                  </svg>
+                  <h6 class="student__detail-title">Students comments</h6>
+                </div>
+                <div class="student__detail-info flex-align-center">
+                  <div class="circle flex-align-justify-center">
+                    <svg
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiAvatar-fallback css-13y7ul3"
+                      focusable="false"
+                      aria-hidden="true"
+                      viewBox="0 0 24 24"
+                      data-testid="PersonIcon"
+                      fill="#ffffff"
+                      width="60px"
+                      height="60px"
+                    >
+                      <path
+                        d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="student__detail-info-wrapper">
+                    <h6 class="student__detail-name">Mohammd Najeem Akhtari</h6>
+                    <h6 class="student__detail-category">
+                      JavaScript and ReactJS student
+                    </h6>
+                  </div>
+                </div>
+                <div class="student__detail-text">
+                  <p class="student__detail-comment">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Itaque, modi cumque ex amet consequuntur tempore non
+                    cupiditate ullam, praesentium possimus id iusto expedita
+                    nulla necessitatibus aperiam porro animi at provident.
+                  </p>
+                </div>
+                <div class="student__detail-footer flex-align-center">
+                  <a href="#" class="app-btn student__detail-btn"
+                    >More comments</a
+                  >
+                  <div class="arrow-wrapper flex">
+                    <svg width="25" viewBox="0 0 37.826 26.11">
+                      <path
+                        d="M-1178.833-9320.346l-9.67-6.045a7,7,0,0,1,0-11.87l9.67-6.046a7,7,0,0,1,10.711,5.936v2.618h11.192a2.806,2.806,0,0,1,2.229,1.156,3.759,3.759,0,0,1,.734,2.269,3.755,3.755,0,0,1-.734,2.271,2.8,2.8,0,0,1-2.229,1.159h-11.192v2.615a7.01,7.01,0,0,1-7.017,7.013A6.931,6.931,0,0,1-1178.833-9320.346Z"
+                        transform="translate(1191.793 9345.381)"
+                        fill="#7C3AED"
+                        class="arrow-left"
+                      ></path>
+                    </svg>
+                    <svg width="25" viewBox="0 0 37.825 26.11">
+                      <path
+                        d="M12.961,25.035,3.29,18.992a7,7,0,0,1,0-11.872l9.671-6.044a7,7,0,0,1,10.71,5.936V9.629H34.861a2.806,2.806,0,0,1,2.229,1.157,3.875,3.875,0,0,1,0,4.54,2.806,2.806,0,0,1-2.229,1.157H23.671V19.1a7.008,7.008,0,0,1-7.015,7.011A6.929,6.929,0,0,1,12.961,25.035Z"
+                        transform="translate(37.825 26.111) rotate(180)"
+                        fill="#7C3AED"
+                        class="arrow-right"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="students__right flex-align-justify-center">
+              <div class="box">
+                <div class="box__item">
+                  <div class="box__item second">
+                    <div class="box__item third"></div>
+                  </div>
+                </div>
+                <div class="box-arrow"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------------studetns section finish------------------>
+      <!---------------socail section start------------------>
+      <section class="socail">
+        <div class="container">
+          <div class="socail-wrapper flex-align-justify-center">
+            <div class="instagram flex-align-center">
+              <h4 class="instagram__title">
+                Follow our instagram page form<a
+                  href="#"
+                  class="instagram__link"
+                >
+                  here</a
+                >
+                and learn free
+              </h4>
+              <img
+                src="images/mockup.webp"
+                class="instagram__mockup"
+                alt="mockup"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------------socail section finish------------------>
+    </main>
+    <!---------------footer start------------------>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="footer__logo-wrapper flex-align-center">
+              <img
+                src="images/full-logo.png"
+                width="150px"
+                alt="logo"
+                class="footer__logo-img"
+              />
+              <div class="footer__name-wrapper">
+                <h3 class="footer__name-title">bemLearn academy</h3>
+                <h2 class="footer__name-label">
+                  Web development | full time support | Project oriendted
+                </h2>
+              </div>
+            </div>
+            <p class="footer__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              commodi, quasi deleniti quibusdam reiciendis accusantium!
+              Praesentium minima rem ipsam mollitia assumenda blanditiis
+              asperiores aperiam reprehenderit hic, enim beatae consectetur
+              unde!ipsam mollitia assumenda blanditiis asperiores aperiam
+              reprehenderit hic, enim beatae consectetur unde!
+            </p>
+          </div>
+          <div class="col-12 col-md-3">
+            <h6 class="footer__title">Useful links</h6>
+            <ul class="footer__list">
+              <li class="footer__list-item flex-align-center">
+                <a href="#" class="footer__list-link">All courses</a>
+              </li>
+              <li class="footer__list-item flex-align-center">
+                <a href="#" class="footer__list-link">About bemLearn</a>
+              </li>
+              <li class="footer__list-item flex-align-center">
+                <a href="#" class="footer__list-link">How to buy</a>
+              </li>
+            </ul>
+            <div class="footer__icons flex-align-center">
+              <a href="#">
+                <svg width="30px" height="30px" viewBox="0 0 48 48" fill="none">
+                  <g stroke-width="0" />
+
+                  <g stroke-linecap="round" stroke-linejoin="round" />
+
+                  <g>
+                    <path
+                      d="M41.4193 7.30899C41.4193 7.30899 45.3046 5.79399 44.9808 9.47328C44.8729 10.9883 43.9016 16.2908 43.1461 22.0262L40.5559 39.0159C40.5559 39.0159 40.3401 41.5048 38.3974 41.9377C36.4547 42.3705 33.5408 40.4227 33.0011 39.9898C32.5694 39.6652 24.9068 34.7955 22.2086 32.4148C21.4531 31.7655 20.5897 30.4669 22.3165 28.9519L33.6487 18.1305C34.9438 16.8319 36.2389 13.8019 30.8426 17.4812L15.7331 27.7616C15.7331 27.7616 14.0063 28.8437 10.7686 27.8698L3.75342 25.7055C3.75342 25.7055 1.16321 24.0823 5.58815 22.459C16.3807 17.3729 29.6555 12.1786 41.4193 7.30899Z"
+                      fill="#7c3aed"
+                    />
+                  </g>
+                </svg>
+              </a>
+              <a href="#">
+                <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none">
+                  <g stroke-width="0" />
+
+                  <g stroke-linecap="round" stroke-linejoin="round" />
+
+                  <g>
+                    <path
+                      d="M9.35003 16.88C9.35003 16.95 9.28003 17 9.18003 17C9.08003 17 9.00003 17 9.00003 16.88C9.00003 16.76 9.08003 16.76 9.17003 16.76C9.26003 16.76 9.35003 16.81 9.35003 16.88ZM8.35003 16.73C8.35003 16.8 8.35003 16.88 8.49003 16.9C8.52584 16.9172 8.56701 16.9195 8.6045 16.9064C8.642 16.8933 8.67275 16.8658 8.69003 16.83C8.69003 16.76 8.69003 16.69 8.55003 16.66C8.41003 16.63 8.37003 16.66 8.35003 16.73ZM9.77003 16.68C9.68003 16.68 9.62003 16.76 9.63003 16.84C9.64003 16.92 9.72003 16.95 9.82003 16.93C9.92003 16.91 9.97003 16.84 9.96003 16.77C9.95003 16.7 9.87003 16.67 9.77003 16.68ZM11.9 4.00002C10.8454 3.99009 9.79962 4.19333 8.82547 4.59754C7.85132 5.00175 6.96887 5.5986 6.23107 6.35227C5.49328 7.10594 4.91535 8.0009 4.53197 8.98343C4.14859 9.96597 3.96765 11.0158 4.00003 12.07C3.97211 13.7969 4.48426 15.4894 5.46493 16.9111C6.4456 18.3328 7.84582 19.4127 9.47003 20C9.88003 20.07 10.03 19.81 10.03 19.6C10.03 19.39 10.03 18.26 10.03 17.6C10.03 17.6 7.77003 18.1 7.29003 16.6C7.29003 16.6 6.93003 15.6 6.40003 15.39C6.40003 15.39 5.66003 14.87 6.45003 14.88C6.70877 14.9149 6.95573 15.01 7.17108 15.1576C7.38643 15.3052 7.56417 15.5013 7.69003 15.73C7.79466 15.9351 7.9401 16.1167 8.11742 16.2635C8.29473 16.4104 8.50019 16.5195 8.72118 16.5841C8.94218 16.6487 9.17404 16.6675 9.40255 16.6393C9.63106 16.6111 9.85139 16.5364 10.05 16.42C10.0879 16.0025 10.2679 15.6107 10.56 15.31C8.76003 15.1 6.94003 14.84 6.94003 11.65C6.92091 11.2896 6.97881 10.9293 7.10985 10.5931C7.2409 10.2569 7.44209 9.95241 7.70003 9.70002C7.45667 8.96799 7.48507 8.17282 7.78003 7.46002C8.46003 7.24002 10.01 8.35002 10.01 8.35002C11.3342 7.97655 12.7359 7.97655 14.06 8.35002C14.06 8.35002 15.61 7.24002 16.29 7.46002C16.5914 8.17142 16.6198 8.96894 16.37 9.70002C16.6371 9.94893 16.8489 10.2511 16.9919 10.587C17.1348 10.9229 17.2057 11.285 17.2 11.65C17.2 14.85 15.3 15.1 13.5 15.31C13.6809 15.5129 13.8186 15.7506 13.9046 16.0085C13.9905 16.2664 14.023 16.5391 14 16.81C14 17.93 14 19.31 14 19.58C13.9994 19.6475 14.015 19.7142 14.0456 19.7744C14.0763 19.8346 14.1209 19.8866 14.1759 19.9258C14.2308 19.9651 14.2945 19.9905 14.3613 19.9999C14.4282 20.0094 14.4964 20.0025 14.56 19.98C16.1813 19.3978 17.5786 18.321 18.5547 16.9017C19.5309 15.4824 20.0364 13.7922 20 12.07C20.0094 11.0051 19.8061 9.94902 19.402 8.96371C18.9979 7.9784 18.4011 7.08369 17.6467 6.33205C16.8923 5.58041 15.9953 4.98696 15.0085 4.58651C14.0217 4.18606 12.9649 3.98667 11.9 4.00002ZM7.14003 15.41C7.14003 15.41 7.14003 15.52 7.14003 15.58C7.15118 15.5912 7.16442 15.6001 7.17901 15.6061C7.1936 15.6122 7.20923 15.6153 7.22503 15.6153C7.24082 15.6153 7.25646 15.6122 7.27105 15.6061C7.28563 15.6001 7.29888 15.5912 7.31003 15.58C7.31003 15.58 7.31003 15.47 7.31003 15.4C7.31003 15.33 7.18003 15.37 7.14003 15.41ZM6.79003 15.14C6.79003 15.14 6.79003 15.24 6.86003 15.27C6.86846 15.2805 6.87913 15.2889 6.89124 15.2947C6.90335 15.3004 6.91661 15.3035 6.93003 15.3035C6.94345 15.3035 6.9567 15.3004 6.96881 15.2947C6.98093 15.2889 6.99159 15.2805 7.00003 15.27C7.00003 15.27 7.00003 15.17 6.93003 15.14C6.86003 15.11 6.81003 15.11 6.79003 15.14ZM7.79003 16.32C7.79003 16.32 7.79003 16.46 7.79003 16.53C7.79003 16.6 7.96003 16.61 8.00003 16.53C8.04003 16.45 8.00003 16.39 8.00003 16.32C8.00003 16.25 7.87003 16.27 7.83003 16.32H7.79003ZM7.42003 15.83C7.42003 15.83 7.42003 15.95 7.42003 16.03C7.42003 16.11 7.56003 16.14 7.61003 16.11C7.63535 16.0809 7.6493 16.0436 7.6493 16.005C7.6493 15.9664 7.63535 15.9291 7.61003 15.9C7.56003 15.82 7.48003 15.79 7.42003 15.83Z"
+                      fill="#7c3aed"
+                    />
+                  </g>
+                </svg>
+              </a>
+              <a href="#">
+                <svg
+                  fill="#7c3aed"
+                  width="30px"
+                  height="30px"
+                  viewBox="0 0 32 32"
+                  version="1.1"
+                >
+                  <g stroke-width="0" />
+
+                  <g stroke-linecap="round" stroke-linejoin="round" />
+
+                  <g>
+                    <title>facebook</title>
+                    <path
+                      d="M30.996 16.091c-0.001-8.281-6.714-14.994-14.996-14.994s-14.996 6.714-14.996 14.996c0 7.455 5.44 13.639 12.566 14.8l0.086 0.012v-10.478h-3.808v-4.336h3.808v-3.302c-0.019-0.167-0.029-0.361-0.029-0.557 0-2.923 2.37-5.293 5.293-5.293 0.141 0 0.281 0.006 0.42 0.016l-0.018-0.001c1.199 0.017 2.359 0.123 3.491 0.312l-0.134-0.019v3.69h-1.892c-0.086-0.012-0.185-0.019-0.285-0.019-1.197 0-2.168 0.97-2.168 2.168 0 0.068 0.003 0.135 0.009 0.202l-0.001-0.009v2.812h4.159l-0.665 4.336h-3.494v10.478c7.213-1.174 12.653-7.359 12.654-14.814v-0z"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <h6 class="footer__title">Payment Options</h6>
+            <img
+              src="/images/logos.png"
+              class="footer__payments"
+              alt="payment methods"
+            />
+          </div>
+        </div>
+        <div class="footer__foot">
+          <h6 class="footer__foot-title">Created with ❤️ in bemLearn</h6>
+        </div>
+      </div>
+    </footer>
+    <!---------------footer finish------------------>
+    <script src="js/app.js" type="module"></script>
+  </body>
+</html>
